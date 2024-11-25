@@ -6,7 +6,11 @@
         "Perkovec.emoji",
         "tamasfe.even-better-toml",
         "ms-python.python",
-        "ms-python.debugpy"
+        "ms-python.debugpy",
+        "christian-kohler.path-intellisense",
+        "pkief.material-icon-theme",
+        "ms-python.mypy-type-checker",
+        "jabacchetta.vscode-essentials"
     ]
 }
   
