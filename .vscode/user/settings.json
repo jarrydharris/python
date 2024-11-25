@@ -1,0 +1,6 @@
+
+[{
+    "key": "ctrl+e",
+    "command": "revealInExplorer",
+    "when": "editorTextFocus"
+}]
