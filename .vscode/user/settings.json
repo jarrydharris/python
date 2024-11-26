@@ -1,6 +1,46 @@
+{
+    // === python ===
+    "[python]": {
+        "editor.formatOnSave": true,
+        "diffEditor.codeLens": false
+    },
+    "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
 
-[{
-    "key": "ctrl+e",
-    "command": "revealInExplorer",
-    "when": "editorTextFocus"
-}]
+    // === editor ===
+    "editor.minimap.size": "fill",
+    "editor.minimap.enabled": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoIndent": "advanced",
+
+    // === explorer ===
+    "explorer.confirmDelete": false,
+    "explorer.excludeGitIgnore": false,
+    "explorer.autoReveal": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": true,
+    "explorer.compactFolders": true,
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "explorer.incrementalNaming": "smart",
+
+    // === security ===
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // === terminal ===
+    "terminal.explorerKind": "both",
+    
+    // === window ===
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "compact",
+
+    // === workbench === 
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.languageDetection": true,
+    "workbench.editor.untitled.labelFormat": "name",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.settings.editor": "json",
+    "workbench.iconTheme": "material-icon-theme",
+}

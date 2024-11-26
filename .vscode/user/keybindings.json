@@ -1,6 +1,46 @@
-
-[{
-    "key": "ctrl+e",
-    "command": "revealInExplorer",
-    "when": "editorTextFocus"
-}]
+[
+    // === View ===
+    {
+        "key": "alt+v e",
+        "command": "workbench.view.explorer",
+    },
+    {
+        "key": "alt+v g",
+        "command": "workbench.view.scm",
+    },    
+    {
+        "key": "alt+v d",
+        "command": "workbench.view.debug",
+    },    
+    {
+        "key": "alt+v b",
+        "command": "workbench.view.extension.bookmarks",
+    },    
+    {
+        "key": "alt+v t",
+        "command": "workbench.view.extension.test",
+    },
+    {
+        "key": "alt+v x",
+        "command": "workbench.view.extensions",
+    },
+    // === Run === 
+    // Tasks
+    {
+        "key": "alt+r t",
+        "command": "workbench.action.tasks.runTask",
+    },
+    {
+        "key": "alt+r r",
+        "command": "workbench.action.tasks.reRunTask",
+    },
+    {
+        "key": "alt+r q",
+        "command": "workbench.action.tasks.reRunTask",
+    },
+    // === Notebooks ===
+    {
+        "key": "alt+n r",
+        "command": "jupyter.restartkernelandrunallcells"
+    },
+]
